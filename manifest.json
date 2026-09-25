@@ -1,0 +1,35 @@
+{
+    "name": "Smart Pass - 定期券購入シミュレーター",
+    "short_name": "Smart Pass",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#f8f9fa",
+    "theme_color": "#02b5c1",
+    "description": "定期券と切符を組み合わせ、交通費が最も安くなる購入プランを計算します。",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
