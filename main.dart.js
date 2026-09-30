@@ -106066,7 +106066,7 @@ I4(a){return this.aEj(a)},
 aEj(a){var s=0,r=A.I(t.eb),q,p=this,o,n,m,l,k,j
 var $async$I4=A.J(function(b,c){if(b===1)return A.F(c,r)
 for(;;)switch(s){case 0:s=3
-return A.w(p.a.x_("sp-announcements",A.aq(["locale",a],t.N,t.X),"\u304a\u77e5\u3089\u305b\u306e\u63a5\u7d9a\u8a2d\u5b9a\u304c\u3042\u308a\u307e\u305b\u3093\u3002\u516c\u958b\u7528Supabase\u30ad\u30fc\u3092\u8a2d\u5b9a\u3057\u3066\u304f\u3060\u3055\u3044\u3002"),$async$I4)
+return A.w(p.a.x_("announcements",A.aq(["locale",a],t.N,t.X),"\u304a\u77e5\u3089\u305b\u306e\u63a5\u7d9a\u8a2d\u5b9a\u304c\u3042\u308a\u307e\u305b\u3093\u3002\u516c\u958b\u7528Supabase\u30ad\u30fc\u3092\u8a2d\u5b9a\u3057\u3066\u304f\u3060\u3055\u3044\u3002"),$async$I4)
 case 3:k=c
 j=k.b
 if(!k.grT())throw A.f(A.r2(p.axV(J.ae(j,"error")),null))
@@ -106089,14 +106089,14 @@ break A}return s},
 $ib10:1}
 A.aDa.prototype={
 $1(a){var s=A.nm(a)
-return new A.fF(A.bf(J.ae(s,"ID")),A.xU(A.bf(J.ae(s,"PUBLISHED_AT"))).TU(),A.bf(J.ae(s,"TITLE")),A.bf(J.ae(s,"BODY")))},
+return new A.fF(A.bf(J.ae(s,"id")),A.xU(A.bf(J.ae(s,"published_at"))).TU(),A.bf(J.ae(s,"title")),A.bf(J.ae(s,"body")))},
 $S:668}
 A.A7.prototype={
 E7(a,b,c,d,e){return this.abW(a,b,c,d,e)},
 abW(a,b,c,d,e){var s=0,r=A.I(t.H),q=this,p
 var $async$E7=A.J(function(f,g){if(f===1)return A.F(g,r)
 for(;;)switch(s){case 0:s=2
-return A.w(q.a.zl("sp-contact-inquiry",A.aq(["deviceId",b,"contactType",a,"email",c,"subject",e,"message",d],t.N,t.X)),$async$E7)
+return A.w(q.a.zl("contact-inquiry",A.aq(["deviceId",b,"contactType",a,"email",c,"subject",e,"message",d],t.N,t.X)),$async$E7)
 case 2:p=g
 if(!p.grT())throw A.f(A.r2(q.axW(J.ae(p.b,"error")),null))
 return A.G(null,r)}})
@@ -106141,7 +106141,7 @@ H1(a,b,c){return this.aAN(a,b,c)},
 aAN(a,b,c){var s=0,r=A.I(t.ro),q,p=this,o,n,m,l,k,j
 var $async$H1=A.J(function(d,e){if(d===1)return A.F(e,r)
 for(;;)switch(s){case 0:s=3
-return A.w(p.a.zl("sp-authenticate-license",A.aq(["licenseKey",c,"deviceId",a,"deviceName",b],t.N,t.X)),$async$H1)
+return A.w(p.a.zl("authenticate-license",A.aq(["licenseKey",c,"deviceId",a,"deviceName",b],t.N,t.X)),$async$H1)
 case 3:l=e
 k=l.b
 j=J.ae(k,"error")
@@ -106170,9 +106170,9 @@ $ib3c:1}
 A.aDc.prototype={
 $1(a){var s,r,q,p
 try{s=A.nm(a)
-r=A.ch(J.ae(s,"DEVICE_ID"))
+r=A.ch(J.ae(s,"device_id"))
 if(r==null)r=""
-q=A.ch(J.ae(s,"DEVICE_NAME"))
+q=A.ch(J.ae(s,"device_name"))
 if(q==null)q=""
 return new A.ki(r,q)}catch(p){return B.a16}},
 $S:670}
@@ -106184,14 +106184,14 @@ DI(a,b,c){return this.aLr(a,b,c)},
 aLr(a,b,c){var s=0,r=A.I(t.H),q=this
 var $async$DI=A.J(function(d,e){if(d===1)return A.F(e,r)
 for(;;)switch(s){case 0:s=2
-return A.w(q.Bc("sp-update-device-name",A.aq(["licenseKey",b,"deviceId",a,"newDeviceName",c],t.N,t.K)),$async$DI)
+return A.w(q.Bc("update-device-name",A.aq(["licenseKey",b,"deviceId",a,"newDeviceName",c],t.N,t.K)),$async$DI)
 case 2:return A.G(null,r)}})
 return A.H($async$DI,r)},
 Du(a,b){return this.aKp(a,b)},
 aKp(a,b){var s=0,r=A.I(t.H),q=this
 var $async$Du=A.J(function(c,d){if(c===1)return A.F(d,r)
 for(;;)switch(s){case 0:s=2
-return A.w(q.Bc("sp-remove-device",A.aq(["licenseKey",b,"deviceIdToRemove",a],t.N,t.K)),$async$Du)
+return A.w(q.Bc("remove-device",A.aq(["licenseKey",b,"deviceIdToRemove",a],t.N,t.K)),$async$Du)
 case 2:return A.G(null,r)}})
 return A.H($async$Du,r)},
 Bc(a,b){return this.avd(a,b)},
@@ -106220,7 +106220,7 @@ aEm(a){return this.Cp(a,!1)},
 aEn(a,b){var s=0,r=A.I(t._2),q,p=this,o,n,m,l,k,j,i,h,g
 var $async$Cp=A.J(function(c,d){if(c===1)return A.F(d,r)
 for(;;)switch(s){case 0:s=3
-return A.w(p.a.zl("sp-license-status",A.aq(["deviceId",a,"includeDevices",b],t.N,t.X)),$async$Cp)
+return A.w(p.a.zl("license-status",A.aq(["deviceId",a,"includeDevices",b],t.N,t.X)),$async$Cp)
 case 3:h=d
 g=h.b
 if(!h.grT())throw A.f(B.Rn)
@@ -106241,9 +106241,9 @@ break}catch(f){throw A.f(B.Rn)}case 1:return A.G(q,r)}})
 return A.H($async$Cp,r)},
 $ib3e:1}
 A.aDe.prototype={
-$1(a){var s,r=A.nm(a),q=A.ch(J.ae(r,"DEVICE_ID"))
+$1(a){var s,r=A.nm(a),q=A.ch(J.ae(r,"device_id"))
 if(q==null)q=""
-s=A.ch(J.ae(r,"DEVICE_NAME"))
+s=A.ch(J.ae(r,"device_name"))
 return new A.jv(q,s==null?"":s)},
 $S:672}
 A.aDf.prototype={
@@ -106254,7 +106254,7 @@ Hd(a,b,c,d){return this.aBb(a,b,c,d)},
 aBb(a,b,c,d){var s=0,r=A.I(t.Cg),q,p=this,o,n,m,l,k,j,i
 var $async$Hd=A.J(function(e,f){if(e===1)return A.F(f,r)
 for(;;)switch(s){case 0:s=3
-return A.w(p.a.x_("sp-simulation",A.aq(["deviceId",a,"deviceInfo",b,"input",p.arZ(d,c)],t.N,t.X),u.N),$async$Hd)
+return A.w(p.a.x_("simulation",A.aq(["deviceId",a,"deviceInfo",b,"input",p.arZ(d,c)],t.N,t.X),u.N),$async$Hd)
 case 3:j=f
 i=j.b
 if(!j.grT()){m=A.ch(J.ae(i,"error"))
@@ -106270,7 +106270,7 @@ I5(a){return this.aEk(a)},
 aEk(a){var s=0,r=A.I(t.U0),q,p=this,o,n,m,l,k,j
 var $async$I5=A.J(function(b,c){if(b===1)return A.F(c,r)
 for(;;)switch(s){case 0:s=3
-return A.w(p.a.x_("sp-simulation-history",A.aq(["deviceId",a],t.N,t.X),u.N),$async$I5)
+return A.w(p.a.x_("simulation-history",A.aq(["deviceId",a],t.N,t.X),u.N),$async$I5)
 case 3:k=c
 j=k.b
 if(!k.grT())throw A.f(A.r2(p.a2I(J.ae(j,"error")),null))
@@ -106322,7 +106322,7 @@ break A}return s},
 $ib4X:1}
 A.aDn.prototype={
 $1(a){var s=A.nm(a),r=this.a
-return new A.kx(A.xU(A.bf(J.ae(s,"SIMULATED_AT"))).TU(),r.auw(A.nm(J.ae(s,"INPUT"))),r.a1u(A.nm(J.ae(s,"RESULT"))))},
+return new A.kx(A.xU(A.bf(J.ae(s,"simulated_at"))).TU(),r.auw(A.nm(J.ae(s,"input"))),r.a1u(A.nm(J.ae(s,"result"))))},
 $S:674}
 A.aDk.prototype={
 $2(a,b){return new A.aF(a,A.lW(b),t.kK)},
@@ -106353,7 +106353,7 @@ var $async$I6=A.J(function(c,d){if(c===1)return A.F(d,r)
 for(;;)switch(s){case 0:j=A.aq(["plan",b],t.N,t.K)
 if(a!=null)j.m(0,"currency",a)
 s=3
-return A.w(p.Br("sp-ticket-pricing",j),$async$I6)
+return A.w(p.Br("ticket-pricing",j),$async$I6)
 case 3:o=d
 try{A.bf(J.ae(o,"plan"))
 A.bf(J.ae(o,"priceId"))
@@ -106372,7 +106372,7 @@ for(;;)switch(s){case 0:k=A.K8()
 j=A.aq(["deviceId",b,"plan",c,"timezone",d,"returnUrl",k.gis(k)+"/pricing"],t.N,t.K)
 if(a!=null)j.m(0,"currency",a)
 s=3
-return A.w(p.Br("sp-create-ticket-purchase",j),$async$Hv)
+return A.w(p.Br("create-ticket-purchase",j),$async$Hv)
 case 3:o=f
 n=J.aM(o)
 m=A.ch(n.i(o,"sessionId"))
@@ -106390,7 +106390,7 @@ K2(a,b){return this.aKL(a,b)},
 aKL(a,b){var s=0,r=A.I(t.kM),q,p=this,o,n,m,l,k,j,i
 var $async$K2=A.J(function(c,d){if(c===1)return A.F(d,r)
 for(;;)switch(s){case 0:s=3
-return A.w(p.a.zl("sp-retrieve-purchased-license",A.aq(["sessionId",b,"deviceId",a],t.N,t.X)),$async$K2)
+return A.w(p.a.zl("retrieve-purchased-license",A.aq(["sessionId",b,"deviceId",a],t.N,t.X)),$async$K2)
 case 3:j=d
 i=j.b
 if(j.a===202||J.d(J.ae(i,"status"),"pending")){q=null
